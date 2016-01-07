@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 The Android Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,14 +14,10 @@
 # limitations under the License.
 #
 
-# Include common espresso BoardConfig
-include device/samsung/espressowifi/BoardConfigCommon.mk
+RIL_PATH := $(call my-dir)
 
+# libril
+include $(RIL_PATH)/libril/Android.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/espresso3g/include
-
-# assert
-TARGET_OTA_ASSERT_DEVICE := espresso3g,p3100,GT-P3100,espressorf,espressorfxx,p5100,GT-P5100,espresso10rf,espresso10rfxx,espresso-common
-
-# RIL
-BOARD_PROVIDES_LIBRIL := true
+# ril client
+include $(RIL_PATH)/libsecril-client/Android.mk)
