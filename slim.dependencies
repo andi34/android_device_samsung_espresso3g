@@ -5,13 +5,8 @@
         "branch": "kk4.4"
     },
     {
-        "repository": "SlimRoms/device_samsung_p5110",
-        "target_path": "device/samsung/p5110",
-        "branch": "kk4.4"
-    },
-    {
-        "repository": "SlimRoms/device_samsung_espresso-common",
-        "target_path": "device/samsung/espresso-common",
+        "repository": "SlimRoms/device_samsung_espresso",
+        "target_path": "device/samsung/espresso",
         "branch": "kk4.4"
     },
     {
