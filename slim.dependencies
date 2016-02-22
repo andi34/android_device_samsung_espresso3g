@@ -1,12 +1,7 @@
 [
     {
-        "repository": "SlimRoms/kernel_samsung_espresso10",
-        "target_path": "kernel/samsung/espresso10",
-        "branch": "lp5.1"
-    },
-    {
-        "repository": "SlimRoms/device_samsung_espresso-common",
-        "target_path": "device/samsung/espresso-common",
+        "repository": "SlimRoms/device_samsung_espresso",
+        "target_path": "device/samsung/espresso",
         "branch": "lp5.1"
     },
     {
