@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
+    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0 \
+    ro.telephony.ril_class=SamsungOmap4RIL
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
