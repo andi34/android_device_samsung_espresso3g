@@ -5,8 +5,8 @@
         "branch": "kk4.4"
     },
     {
-        "repository": "SlimRoms/device_samsung_espresso",
-        "target_path": "device/samsung/espresso",
+        "repository": "SlimRoms/device_samsung_espressowifi",
+        "target_path": "device/samsung/espressowifi",
         "branch": "kk4.4"
     },
     {

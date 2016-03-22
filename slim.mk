@@ -25,7 +25,7 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # SlimRoms specific overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso3g/overlay/slim
-DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso/overlay/slim-common
+DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/slim-common
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/espresso3g/aosp_espresso3g.mk)
