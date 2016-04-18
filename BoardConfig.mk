@@ -27,3 +27,7 @@ COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := espresso3g,espresso-common,p3100,GT-P3100,espressorf,espressorfxx,p5100,GT-P5100,espresso10rf,espresso10rfxx
+
+# Selinux
+BOARD_SEPOLICY_DIRS += \
+    device/samsung/espresso3g/sepolicy
