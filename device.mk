@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_PACKAGES += \
     libsecril-client \
+    libsecril-shim \
     libsecnativefeature
 
 PRODUCT_PROPERTY_OVERRIDES += \
