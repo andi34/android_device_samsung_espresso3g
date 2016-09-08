@@ -28,8 +28,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0 \
-    ro.telephony.ril_class=SamsungExynos4RIL
+    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
 
 PRODUCT_PACKAGES += \
     libsecril-client \
