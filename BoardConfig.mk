@@ -18,10 +18,5 @@
 include device/samsung/espressowifi/BoardConfigCommon.mk
 
 
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/espresso3g/include
-
 # assert
 TARGET_OTA_ASSERT_DEVICE := espresso3g,p3100,GT-P3100,espressorf,espressorfxx,p5100,GT-P5100,espresso10rf,espresso10rfxx,espresso-common
-
-# RIL
-BOARD_PROVIDES_LIBRIL := true
