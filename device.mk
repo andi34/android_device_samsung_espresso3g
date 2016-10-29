@@ -16,7 +16,7 @@
 #
 
 # Include espresso-common makefile
-$(call inherit-product, device/samsung/espressowifi/espresso-common.mk)
+$(call inherit-product, device/samsung/espressowifi/device-common.mk)
 
 LOCAL_PATH := device/samsung/espresso3g
 
