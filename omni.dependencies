@@ -4,11 +4,5 @@
     "repository": "android_device_samsung_espressowifi",
     "target_path": "device/samsung/espressowifi",
     "revision": "android-6.0"
-  },
-  {
-    "remote": "omnirom",
-    "repository": "android_packages_apps_SamsungServiceMode",
-    "target_path": "packages/apps/SamsungServiceMode",
-    "revision": "android-6.0"
   }
 ]
