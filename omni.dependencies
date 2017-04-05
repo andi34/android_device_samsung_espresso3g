@@ -3,6 +3,6 @@
     "remote": "omnirom",
     "repository": "android_device_samsung_espressowifi",
     "target_path": "device/samsung/espressowifi",
-    "revision": "android-6.0"
+    "revision": "android-7.1"
   }
 ]
