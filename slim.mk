@@ -16,9 +16,8 @@
 #
 
 # Boot animation
-TARGET_BOOTANIMATION_HALF_RES := true
-TARGET_SCREEN_HEIGHT := 800
-TARGET_SCREEN_WIDTH := 1280
+TARGET_SCREEN_HEIGHT := 1024
+TARGET_SCREEN_WIDTH := 600
 
 # Inherit common Slim configuration
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
