@@ -15,9 +15,4 @@ allow cpboot-daemon self:capability setuid;
 allow cpboot-daemon { block_device efs_file }:dir search;
 
 # Talk to init over the property socket
-unix_socket_connect(cpboot-daemon, property, init)
-
-allow cpboot-daemon radio_prop:property_service set;
-
-# neverallow failures - FIX ME if needed
-# allow cpboot-daemon self:capability mknod;
+set_prop(cpboot-daemon, radio_prop)
