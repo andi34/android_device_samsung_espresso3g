@@ -27,6 +27,10 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/espressowifi/overlay/custom-common
 # Inherit device specific configuration
 $(call inherit-product, device/samsung/espresso3g/aosp_espresso3g.mk)
 
+# Remove packages filling up system
+PRODUCT_PACKAGES += \
+	RemovePackages
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_espresso3g
 
